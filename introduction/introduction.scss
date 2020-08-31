@@ -66,3 +66,15 @@
         opacity:1;
         transform:translateX(0);
     }
+
+
+@media (min-width: 680px) and (max-width: 960px) {
+        /* ここに幅が680px～960pxまでの CSS を記述 */
+
+        .introduction_text{ 
+            margin-left:100px;
+            h2 {
+                font-size:4vh;
+            }
+        }
+}
