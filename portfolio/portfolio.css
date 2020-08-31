@@ -53,6 +53,17 @@
   transform: translateY(-0.1875em);
 }
 
+.portfolio .card .card_body .card_url a {
+  display: block;
+  height: 100%;
+  color: white;
+  text-decoration: none;
+}
+
+.portfolio .card .card_body .card_url a:hover {
+  color: #858282;
+}
+
 .portfolio img {
   width: 26vw;
 }
