@@ -57,3 +57,21 @@
         width:26vw;
     }
 }
+
+
+
+@media (min-width: 680px) and (max-width: 960px) {
+    /* ここに幅が680px～960pxまでの CSS を記述 */
+    .work_content { 
+        .work_top {
+            margin-left:80px;
+            h1 {
+                margin:0;
+            }
+        }
+    }
+
+    .portfolio {
+        margin-top:80px;
+    }
+}
