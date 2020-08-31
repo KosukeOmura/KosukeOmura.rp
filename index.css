@@ -37,7 +37,7 @@ body {
 
 .top .full-landing-image .top-titile .list-top {
   margin: 0 auto;
-  width: 40vw;
+  width: 70vh;
 }
 
 .top .full-landing-image .top-titile .list-top ul {
@@ -58,8 +58,8 @@ body {
 .top .full-landing-image .top-titile .list-top ul li a img {
   background-color: white;
   border-radius: 50%;
-  padding: 10px;
-  width: 80px;
+  padding: 1vh;
+  width: 10vh;
 }
 
 .top .full-landing-image .top-titile .top-contact {
@@ -92,4 +92,8 @@ scroll animation fadein
 .Page-Btn-Icon {
   color: #fff;
   font-size: 16px;
+}
+
+.wrap {
+  overflow: hidden;
 }
