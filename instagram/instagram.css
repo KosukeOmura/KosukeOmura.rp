@@ -1,0 +1,85 @@
+@charset "UTF-8";
+.instagram_container {
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-bottom: 200px;
+}
+
+.instgram_title {
+  color: rgba(250, 136, 240, 0.7);
+  text-align: left;
+  margin-left: 40px;
+}
+
+.instgram_title h2 {
+  font-weight: bold;
+  font-size: 46px;
+}
+
+.instgram_filter {
+  position: relative;
+  cursor: pointer;
+}
+
+.instgram_filter a {
+  display: block;
+  height: 100%;
+}
+
+.instgram_container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.instgram_container .instgram_box {
+  position: relative;
+  text-align: center;
+}
+
+.instgram_container .instgram_box h1, .instgram_container .instgram_box p {
+  position: absolute;
+  color: #fff;
+}
+
+.instgram_container .instgram_box h1 {
+  font-size: 4vw;
+  top: 30%;
+  left: 50%;
+}
+
+.instgram_container .instgram_box .top1 {
+  font-size: 2vw;
+  top: 50%;
+  left: 50%;
+}
+
+.instgram_container .instgram_box .second2 {
+  font-size: 1vw;
+  top: 58%;
+  left: 50%;
+}
+
+.instgram_container .instgram_box .img-filter {
+  background-color: black;
+  overflow: hidden;
+  transition: 5s;
+}
+
+.instgram_container .instgram_box .img-filter:hover {
+  filter: brightness(2);
+}
+
+.instgram_container .instgram_box img {
+  width: 100%;
+  opacity: 0.6;
+  /** 画像の透明度 */
+  transition: 4s;
+}
+
+.instgram_container .instgram_box img:hover {
+  transform: scale(1.5);
+}

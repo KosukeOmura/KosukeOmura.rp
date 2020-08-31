@@ -1,0 +1,93 @@
+body{
+    width:100%;
+    margin:0;
+    padding:0;
+    background-color:rgb(0, 0, 0);
+    color:#eee;
+    font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+    font-weight: 300;
+    letter-spacing: .05em;
+}
+
+//トップ部分
+.top{
+    .full-landing-image{
+        width:100%;
+        height:auto;
+        background: url(img/photo-1593642703013-5a3b53c965f6.jpeg) no-repeat center;
+        background-size: cover;
+        padding-bottom:80px;
+        object-fit: cover;
+        //トップテキスト部分
+        .top-titile{
+            padding-top:200px;
+            margin:0 auto;
+            text-align:center;
+            width:100vw;
+            color:rgb(255, 255, 255);
+            h1{
+                font-size:80px;
+                margin:0;
+            }
+            h2{
+                font-size:20px;
+            }
+            //トップリスト部分(introduction,protfolio,instagram,skill)
+            .list-top {
+                margin:0 auto;
+                width:40vw;
+                ul{
+                    display:flex;
+                    justify-content: space-between;
+                    li{
+                        color:#eee;
+                        list-style:none;
+                        a{
+                            text-decoration:none;
+                            color:rgb(255, 255, 255);
+                            img{
+                                background-color:rgb(255, 255, 255);
+                                border-radius:50%;
+                                padding:10px;
+                                width:80px;
+                            }
+                        }
+                    }
+                }
+            }
+            //トップコンタクト部分(border-top含)
+            .top-contact {
+                width:500px;
+                margin: 0 auto;
+                border-top: 1px solid rgb(255, 255, 255);
+                a{
+                    text-decoration:none;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+
+
+//トップへ戻る実装
+/*--------------------------------
+scroll animation fadein
+--------------------------------*/
+.Page-Btn {
+    z-index:10000;
+    position:fixed;
+    right: 14px;
+    bottom: 14px;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    border-radius: 50%;
+    background: #5bc8ac;
+}
+.Page-Btn-Icon {
+    color: #fff;
+    font-size: 16px;
+}

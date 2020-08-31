@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kosukeポートフォリオサイト</title>
+    <!-- Font Awesome -->
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+
+    <!-- Chart.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.min.js"></script>
+
+    <!-- ScrollReveal.js -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+
+    <!-- devicons.github.io -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
+
+    <!-- フォント -->
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Cormorant:ital,wght@0,700;1,300&family=Playfair+Display:ital@1&family=Raleway:ital,wght@1,200;1,300&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="introduction/introduction.css">
+    <link rel="stylesheet" href="portfolio/portfolio.css">
+    <link rel="stylesheet" href="instagram/instagram.css">
+    <link rel="stylesheet" href="skill/skill.css">
+    <link rel="stylesheet" href="contact/contact.css">
+    <link rel="stylesheet" href="footer/footer.css">
+    
+</head>
+<body>
+
+    <div id="app">
+        <div class="Page-Btn" @click="scrollTop">
+            <i class="fas fa-chevron-up Page-Btn-Icon"></i>
+        </div>
+    </div>
+
+    <!-- TOP要素 -->
+    <div class="top">
+        <div class="full-landing-image">
+            <div class="top-titile">
+                <h1>CREATION</h1>
+                <h2>知りたい情報をクリック</h2>
+                <div class="list-top">
+                    <ul>
+                        <li>
+                            <a href="#introduction">
+                                <img src="img/紹介.png" alt="">
+                                <p>Introduction</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#work_content">
+                                <img src="img/ポートフォリオ.png" alt="">
+                                <p>portfolio</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#instagram_container">
+                                <img src="img/Instagram.png" alt="">
+                                <p>SNS運用</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#skill_content">
+                                <img src="img/スキル.png" alt="">
+                                <p>skill</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="top-contact">
+                    <a href="">
+                        <p>Contact</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 紹介部分 -->
+    <div class="introduction" id="introduction">
+        <!-- <h1>スクロールでコンテンツフェードインさせてみる</h1>
+            <p id="scroll">スクロール値：<span>0</span></p>
+            <p id="wh">ウィンドウの高さ：<span>0</span></p> -->
+        <div class="introduction_content">
+            <div class="introduction_image">
+                <img src="img/face.jpeg" alt="">
+            </div>
+            <div class="introduction_text">
+                <h2>徳島県| 22歳 |【オオムラ】と申します。</h2>
+                <p>自身の服を１年に数回しか買わない私が</p>
+                <p>Instagramでファッションメディア運営しています。</p>
+                <ul>
+                    <li><a href="#">スキル</a></li>
+                    <li><a href="#">ポートフォリオ</a></li>
+                    <li><a href="#">紹介</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+                -宜しくお願い致します。-
+            </div>
+        </div>
+    </div>
+    <!-- ポートフォリオ部分 -->
+    <div class="work_content" id="work_content">
+        <div class="work_top">
+            <h1>WORKS</h1>
+            <p>Web制作記録です。<br>架空サイトも含んでいます。</p>
+        </div>
+        <div class="portfolio">
+            <div class="card">
+                <a href="#">
+                    <img src="img/ポートフォリオ真.jpg" alt="">
+                </a>
+                <div class="card_body">
+                    <div class="card_title">仮想ポートフォリオ</div>
+                    <div class="card_text">HTML/CSS/JS</div>
+                    <div class="card_url">
+                        <a class="card_link" href="#">Link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <img src="img/ポートフォリオ真.jpg" alt="">
+                </a>
+                <div class="card_body">
+                    <div class="card_title">仮想ポートフォリオ</div>
+                    <div class="card_text">HTML/CSS/JS</div>
+                    <div class="card_url">
+                        <a class="card_link" href="#">Link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <img src="img/ポートフォリオ真.jpg" alt="">
+                </a>
+                <div class="card_body">
+                    <div class="card_title">仮想ポートフォリオ</div>
+                    <div class="card_text">HTML/CSS/JS</div>
+                    <div class="card_url">
+                        <a class="card_link" href="#">Link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <img src="img/ポートフォリオ真.jpg" alt="">
+                </a>
+                <div class="card_body">
+                    <div class="card_title">仮想ポートフォリオ</div>
+                    <div class="card_text">HTML/CSS/JS</div>
+                    <div class="card_url">
+                        <a class="card_link" href="#">Link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <img src="img/ポートフォリオ真.jpg" alt="">
+                </a>
+                <div class="card_body">
+                    <div class="card_title">仮想ポートフォリオ</div>
+                    <div class="card_text">HTML/CSS/JS</div>
+                    <div class="card_url">
+                        <a class="card_link" href="#">Link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <img src="img/ポートフォリオ真.jpg" alt="">
+                </a>
+                <div class="card_body">
+                    <div class="card_title">仮想ポートフォリオ</div>
+                    <div class="card_text">HTML/CSS/JS</div>
+                    <div class="card_url">
+                        <a class="card_link" href="#">Link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Instagram部分 -->
+    <div class="instagram_container" id="instagram_container">
+        <div class="instgram_title">
+            <h2>Instagram運用</h2>
+        </div>
+        <div class="instgram_filter">
+            <div class="instgram_container">
+                <div class="instgram_box">
+                    <div class="img-filter">
+                        <a href="https://www.instagram.com/korea__g/?hl=ja" target="_brank">
+                        <img src="img/Instagram 1.png" alt="">
+                        </a>
+                    </div>
+                    <h1>01</h1>
+                    <p class="top1">Korea_g</p>
+                    <p class="second2">【韓国グラム】</p>
+                </div>
+                <div class="instgram_box">
+                    <div class="img-filter">
+                        <a href="https://www.instagram.com/xx_omedia/?hl=ja" target="_blank">
+                            <img src="img/Instagram2.png" alt="">
+                        </a>
+                    </div>
+                    <h1>02</h1>
+                    <p class="top1">XX_O</p>
+                    <p class="second2">【韓国メディア】</p>
+                </div>
+                <div class="instgram_box">
+                    <div class="img-filter">
+                        <a href="https://www.instagram.com/furufurugi/?hl=ja" target="_blank">
+                            <img src="img/Instagram３.png" alt="">
+                        </a>
+                    </div>
+                    <h1>03</h1>
+                    <p class="top1">古着な彼女</p>
+                    <p class="second2">【古着女子メディア】</p>
+                </div>
+                <div class="instgram_box">
+                    <div class="img-filter">
+                        <a href="https://www.instagram.com/quietgirl.official/?hl=ja" target="_blank">
+                            <img src="img/Instagram４.png" alt="">
+                        </a>
+                    </div>
+                    <h1>04</h1>
+                    <p class="top1">quiet Girl</p>
+                    <p class="second2">【クエットガール】</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skill部分 -->
+    <div class="skill_content" id="skill_content">
+        <div class="skill_fade">
+            <div class="skill_top">
+                <h1>SKILL</h1>
+                <p>星５評価</p>
+            </div>
+            <div class="skill_box">
+                <div class="content_box">
+                    <div class="skill_type">
+                        <div class="skill_image">
+                            <img src="https://cdn.svgporn.com/logos/html-5.svg" alt="">
+                            <img src="https://cdn.svgporn.com/logos/css-3.svg" alt="">
+                        </div>
+                        <div class="skill_text">
+                            <h2>HTML5/CSS3</h2>
+                            <span class="rate rate4"></span>
+                        </div>
+                    </div>
+                    <div class="skill_type">
+                        <div class="skill_image">
+                            <img src="file:///Users/kousukeomura/Desktop/%E3%83%9B%E3%82%9A%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%AA%E3%82%AA/%E3%83%9B%E3%82%9A%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%AA%E3%82%AA%E3%82%92%E4%BD%9C%E3%82%8D%E3%81%86/%E3%83%9B%E3%82%9A%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%AA%E3%82%AA/img/javascript-4%2017.42.31.svg" alt="">
+                        </div>
+                        <div class="skill_text">
+                            <h2>JavaScript</h2>
+                            <span class="rate rate2"></span>
+                        </div>
+                    </div>
+                    <div class="skill_type">
+                        <div class="skill_image">
+                            <img src="file:///Users/kousukeomura/Desktop/%E3%83%9B%E3%82%9A%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%AA%E3%82%AA/%E3%83%9B%E3%82%9A%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%AA%E3%82%AA%E3%82%92%E4%BD%9C%E3%82%8D%E3%81%86/%E3%83%9B%E3%82%9A%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%AA%E3%82%AA/img/jquery-1.svg" alt="">
+                        </div>
+                        <div class="skill_text">
+                            <h2>jQuery</h2>
+                            <span class="rate rate2"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="content_box">
+                    <div class="skill_type">
+                        <div class="skill_image">
+                            <img src="https://cdn.svgporn.com/logos/vue.svg" alt="">
+                        </div>
+                        <div class="skill_text">
+                            <h2>Vue.js</h2>
+                            <span class="rate rate2"></span>
+                        </div>
+                    </div>
+                    <div class="skill_type">
+                        <div class="skill_image">
+                            <img src="file:///Users/kousukeomura/Desktop/%E3%83%9B%E3%82%9A%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%AA%E3%82%AA/%E3%83%9B%E3%82%9A%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%AA%E3%82%AA%E3%82%92%E4%BD%9C%E3%82%8D%E3%81%86/%E3%83%9B%E3%82%9A%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%AA%E3%82%AA/img/php-1.svg" alt="">
+                        </div>
+                        <div class="skill_text">
+                            <h2>PHP</h2>
+                            <span class="rate rate0-5"></span>
+                        </div>
+                    </div>
+                    <div class="skill_type">
+                        <div class="skill_image">
+                            <img src="file:///Users/kousukeomura/Desktop/%E3%83%9B%E3%82%9A%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%AA%E3%82%AA/%E3%83%9B%E3%82%9A%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%AA%E3%82%AA%E3%82%92%E4%BD%9C%E3%82%8D%E3%81%86/%E3%83%9B%E3%82%9A%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%AA%E3%82%AA/img/github-1.svg" alt="">
+                        </div>
+                        <div class="skill_text">
+                            <h2>Git Hub</h2>
+                            <span class="rate rate2"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="content_box">
+                    <div class="skill_type">
+                        <div class="skill_image">
+                            <img src="https://cdn.svgporn.com/logos/wordpress-icon.svg" alt="">
+                        </div>
+                        <div class="skill_text">
+                            <h2>WordPress</h2>
+                            <span class="rate rate2"></span>
+                        </div>
+                    </div>
+                    <div class="skill_type">
+                        <div class="skill_image">
+                            <img src="file:///Users/kousukeomura/Desktop/%E3%83%9B%E3%82%9A%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%AA%E3%82%AA/%E3%83%9B%E3%82%9A%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%AA%E3%82%AA%E3%82%92%E4%BD%9C%E3%82%8D%E3%81%86/%E3%83%9B%E3%82%9A%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%AA%E3%82%AA/img/photoshop-cc.svg" alt="">
+                        </div>
+                        <div class="skill_text">
+                            <h2>Photoshop</h2>
+                            <span class="rate rate5"></span>
+                        </div>
+                    </div>
+                    <div class="skill_type">
+                        <div class="skill_image">
+                            <img src="file:///Users/kousukeomura/Desktop/%E3%83%9B%E3%82%9A%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%AA%E3%82%AA/%E3%83%9B%E3%82%9A%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%AA%E3%82%AA%E3%82%92%E4%BD%9C%E3%82%8D%E3%81%86/%E3%83%9B%E3%82%9A%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%AA%E3%82%AA/img/premiere-cc.svg" alt="">
+                        </div>
+                        <div class="skill_text">
+                            <h2>Premiere pro</h2>
+                            <span class="rate rate4"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="contact_content">
+        <div class="contact_box">
+            <h1>CONTACT</h1>
+            <p>お仕事のご依頼は下記メールよりご連絡をください</p>
+            <a href="https://twitter.com/nomad_pacurie">
+                <img src="img/icon_tw.png" alt="">
+            </a>
+            <a href=""></a>
+        </div>
+    </div>
+
+    <!-- フッター -->
+    <footer>
+        <small>COPYRIGHT © 2020 Kosuke Omura</small>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+    <script src="https://unpkg.com/vue-typer/dist/vue-typer.min.js"></script>
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- ripples -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.min.js"></script>
+
+    <script src="index.js"></script>
+    <script src="instagram/instagram.js"></script>
+    <script src="chartskill/chart.js"></script>
+    <script src="portfolio/work.js"></script>
+    <script src="contact/contact.js"></script>
+    <script src="topback.vue"></script>
+</body>
+</html>

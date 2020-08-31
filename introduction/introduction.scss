@@ -1,0 +1,68 @@
+// 紹介文の部分
+.introduction {
+    padding-top:100px;
+    margin-bottom:200px;
+    width:100%;
+    height: auto;
+    transform:translateX(-50px);
+    opacity:0;
+    transition:opacity 3s,transform 2s;
+    .introduction_content {
+        display: flex;
+        margin: 0 auto;
+        width:70vw;
+        justify-content: space-between;
+        .introduction_image {
+            margin-top:50px;
+            img{
+                border-radius:10%;
+                width:20vw;
+                height:15vw;
+                object-fit: cover;
+            }
+        }
+        .introduction_text{
+            li{
+                position: relative;
+                padding-left: 15px;
+                list-style:none;
+            }
+            li:before {
+                content: "";
+                position: absolute;
+                top: .1em;
+                left: -3px;
+                width: 15px;
+                height: 15px;
+                border-top: 1px solid #fff;
+                border-right: 1px solid #fff;
+                border-radius: 50%;
+                background-color: #8b6b4e;
+            }
+            
+            li:after {
+                content: "";
+                position: absolute;
+                top: .5em;
+                left: 1px;
+                -webkit-transform: rotate(45deg);
+                -ms-transform: rotate(45deg);
+                transform: rotate(45deg);
+                width: 4px;
+                height: 4px;
+                border-top: 1px solid #fff;
+                border-right: 1px solid #fff;
+            }
+                
+                a{
+                    text-decoration:none;
+                    color:#eee;
+                }
+            }
+        }
+    }
+
+    .fadein{
+        opacity:1;
+        transform:translateX(0);
+    }

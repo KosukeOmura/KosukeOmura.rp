@@ -1,0 +1,50 @@
+.work_content {
+    max-width:1400px;
+    margin: 0 auto;
+    margin-bottom:200px;
+    .work_top {
+        text-align:left;
+        margin-left:120px;
+        h1 {
+            color:rgba(180, 173, 75,0.6);
+            font-size:46px;
+        }
+    }
+}
+
+.portfolio {
+    height:auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    .card {
+        text-align:center;
+        margin:10px;
+        img {
+            transition: all 0.3s ease 0s;
+            &:hover {
+                box-shadow: 0 0 10px 0 rgb(255, 255, 255);
+                transform: translateY(-0.1875em);
+            }
+        }
+        .card_body {
+            .card_title {
+                font-size: .8vw;
+            }
+            .card_text {
+                margin-top:6px;
+                font-size: .4vw;
+            }
+            .card_url {
+                margin-top:6px;
+                transition: all 0.3s ease 0s;
+                &:hover {
+                    transform: translateY(-0.1875em);
+                }
+            }
+        }
+    }
+    img {
+        width:26vw;
+    }
+}

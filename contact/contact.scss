@@ -1,0 +1,22 @@
+.contact_content {
+    max-width: 1400px;
+    text-align:left;
+    margin-left:120px;
+    margin-top:300px;
+    .contact_box {
+        width:80vh;
+
+        h1 {
+            color:rgba(202, 218, 62, 0.747);
+            font-size:6vh;
+            margin:0;
+        }
+
+        a {
+            text-decoration:none;
+            img {
+                width:8vh;
+            }
+        }
+    }
+}
