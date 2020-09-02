@@ -11,6 +11,15 @@
             font-size:6vh;
             margin:0;
         }
+        .gmail {
+            display:block;
+            text-decoration:none;
+            color:#fff;
+            margin-bottom:10px;
+            &:hover {
+                color:rgb(143, 140, 140);
+            }
+        }
 
         a {
             text-decoration:none;
@@ -19,4 +28,61 @@
             }
         }
     }
+}
+
+
+
+@media (min-width: 680px) and (max-width: 960px) {
+    .contact_content {
+        max-width:80vw;
+        
+        margin:0 auto;
+        
+        .contact_box {
+            width:80vw;
+            h1 {
+                color:rgba(202, 218, 62, 0.747);
+                font-size:4vh;
+                margin:0;
+            }
+            a {
+                text-decoration:none;
+                img {
+                    width:4vh;
+                }
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 679px) {
+
+    .contact_content {
+        max-width:80vw;
+        
+        margin:0 auto;
+        
+        .contact_box {
+            width:80vw;
+            h1 {
+                color:rgba(202, 218, 62, 0.747);
+                font-size:3vh;
+                margin:0;
+            }
+
+            p {
+                font-size:1vh;
+            }
+            a {
+                font-size:1vh;
+                text-decoration:none;
+                img {
+                    width:2vh;
+                }
+            }
+        }
+    }
+
 }

@@ -3,3 +3,20 @@ footer {
   margin: 0 auto;
   margin-top: 100px;
 }
+
+@media (min-width: 680px) and (max-width: 960px) {
+  footer {
+    max-width: 80vw;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 679px) {
+  footer {
+    max-width: 80vw;
+    margin-bottom: 10px;
+  }
+  footer small {
+    font-size: 2px;
+  }
+}

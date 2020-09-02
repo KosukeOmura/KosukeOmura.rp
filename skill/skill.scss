@@ -115,3 +115,55 @@ $rate5 :$starFull * 5;//星5
 
 
 
+
+@media (min-width: 680px) and (max-width: 960px) {
+
+    .skill_content {
+        max-width: 80vw;
+        .skill_top {
+            margin:0 auto;
+        }
+        .skill_box {
+            .skill_type {
+                .skill_image {
+                    img {
+                        display:inline-block;
+                        width:6vh;
+                    }
+                }
+                .skill_text {
+                    h2 {
+                        font-size:2vh
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+@media (max-width: 679px) {
+
+    .skill_content {
+        max-width: 80vw;
+        .skill_top {
+            margin:0 auto;
+        }
+        .skill_box {
+            .skill_type {
+                .skill_image {
+                    img {
+                        display:inline-block;
+                        width:4vh;
+                    }
+                }
+                .skill_text {
+                    h2 {
+                        font-size:1vh
+                    }
+                }
+            }
+        }
+    }
+}

@@ -97,3 +97,31 @@ scroll animation fadein
 .wrap {
   overflow: hidden;
 }
+
+@media (min-width: 680px) and (max-width: 960px) {
+  .top .full-landing-image .top-titile {
+    padding-top: 180px;
+  }
+  .top .full-landing-image .top-titile h1 {
+    font-size: 70px;
+  }
+  .top .full-landing-image .top-titile h2 {
+    font-size: 20px;
+    margin-bottom: 60px;
+  }
+  .top .full-landing-image .top-titile .list-top {
+    width: 80vw;
+  }
+  .top .full-landing-image .top-titile .list-top ul li a img {
+    padding: 0.2vh;
+  }
+  .top .full-landing-image .top-titile .top-contact {
+    width: 500px;
+    margin: 0 auto;
+    border-top: 1px solid white;
+  }
+  .top .full-landing-image .top-titile .top-contact a {
+    text-decoration: none;
+    color: #fff;
+  }
+}

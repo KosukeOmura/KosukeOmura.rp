@@ -10,7 +10,7 @@
     .introduction_content {
         display: flex;
         margin: 0 auto;
-        width:70vw;
+        width:80vw;
         justify-content: space-between;
         .introduction_image {
             margin-top:50px;
@@ -77,4 +77,38 @@
                 font-size:36px;
             }
         }
+}
+
+
+@media (max-width: 679px) {
+
+    .introduction_text{ 
+        margin-left:100px;
+        h2 {
+            font-size:18px;
+        }
+
+        ul {
+            padding:0;
+        }
+        li{
+            padding-left: 15px;
+            list-style:square;
+            font-size:8px;
+        }
+        li:before {
+            display:none;
+        }
+        
+        li:after {
+            display:none;
+        }
+            
+        a{
+                text-decoration:none;
+                color:#eee;
+        }
+        
+    }
+
 }
