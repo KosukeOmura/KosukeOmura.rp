@@ -14,7 +14,7 @@ body {
   height: auto;
   background: url(img/photo-1593642703013-5a3b53c965f6.jpeg) no-repeat center;
   background-size: cover;
-  padding-bottom: 80px;
+  padding-bottom: 20px;
   object-fit: cover;
 }
 
@@ -117,6 +117,41 @@ scroll animation fadein
   }
   .top .full-landing-image .top-titile .top-contact {
     width: 500px;
+    margin: 0 auto;
+    border-top: 1px solid white;
+  }
+  .top .full-landing-image .top-titile .top-contact a {
+    text-decoration: none;
+    color: #fff;
+  }
+}
+
+@media (max-width: 679px) {
+  .top .full-landing-image .top-titile {
+    padding-top: 100px;
+  }
+  .top .full-landing-image .top-titile h1 {
+    font-size: 50px;
+  }
+  .top .full-landing-image .top-titile h2 {
+    font-size: 16px;
+    margin-bottom: 60px;
+  }
+  .top .full-landing-image .top-titile .list-top {
+    width: 80vw;
+  }
+  .top .full-landing-image .top-titile .list-top ul {
+    padding: 0;
+  }
+  .top .full-landing-image .top-titile .list-top ul li {
+    padding: 10px;
+  }
+  .top .full-landing-image .top-titile .list-top ul li a img {
+    padding: 10px;
+    width: 11vw;
+  }
+  .top .full-landing-image .top-titile .top-contact {
+    width: 380px;
     margin: 0 auto;
     border-top: 1px solid white;
   }

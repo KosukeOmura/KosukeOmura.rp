@@ -16,7 +16,7 @@ body{
         height:auto;
         background: url(img/photo-1593642703013-5a3b53c965f6.jpeg) no-repeat center;
         background-size: cover;
-        padding-bottom:80px;
+        padding-bottom:20px;
         object-fit: cover;
         //トップテキスト部分
         .top-titile{
@@ -141,4 +141,51 @@ scroll animation fadein
             }
         }
     }
+}
+
+
+@media (max-width: 679px) {
+
+    .top{
+        .full-landing-image{
+            //トップテキスト部分
+            .top-titile{
+                padding-top:100px;
+                h1{
+                    font-size:50px;
+                }
+                h2{
+                    font-size:16px;
+                    margin-bottom:60px;
+                }
+                //トップリスト部分(introduction,protfolio,instagram,skill)
+                .list-top {
+                    width:80vw;
+                    ul{
+                        padding:0;
+                        li{
+                            padding:10px;
+                            a{
+                                img{
+                                    padding:10px;
+                                    width:11vw;
+                                }
+                            }
+                        }
+                    }
+                }
+                //トップコンタクト部分(border-top含)
+                .top-contact {
+                    width:380px;
+                    margin:0 auto;
+                    border-top: 1px solid rgb(255, 255, 255);
+                    a{
+                        text-decoration:none;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+
 }
