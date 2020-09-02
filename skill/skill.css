@@ -1,6 +1,8 @@
 @charset "UTF-8";
 .skill_content {
   max-width: 1400px;
+  margin: 0 auto;
+  margin-bottom: 200px;
 }
 
 .skill_content .skill_top {
@@ -14,10 +16,10 @@
 }
 
 .skill_content .skill_box {
-  width: 80vw;
-  margin: 0 auto;
+  height: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .skill_content .skill_box .skill_type {

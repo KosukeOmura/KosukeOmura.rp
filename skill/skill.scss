@@ -1,5 +1,7 @@
 .skill_content {
     max-width: 1400px;
+    margin: 0 auto;
+    margin-bottom:200px;
     .skill_top {
         text-align:left;
         margin-left:120px;
@@ -9,10 +11,10 @@
         }
     }
     .skill_box {
-        width: 80vw;
-        margin: 0 auto;
+        height:auto;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        flex-wrap: wrap;
         .skill_type {
             padding-bottom:40px;
             .skill_image {
