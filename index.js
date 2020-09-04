@@ -1,9 +1,9 @@
 //ripples要素
 
 $(".full-landing-image").ripples({
-    resolution: 200,
-    dropRadius:10,
-    perturbance: 0.5,
+    resolution: 160,
+    dropRadius:4,
+    perturbance: 0.2,
 })
 
 
