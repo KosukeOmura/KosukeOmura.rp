@@ -17,7 +17,7 @@
 }
 
 .introduction .introduction_content .introduction_image {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .introduction .introduction_content .introduction_image img {
@@ -76,16 +76,22 @@
     margin-left: 100px;
   }
   .introduction_text h2 {
-    font-size: 36px;
+    font-size: 18px;
   }
+  .introduction .introduction_content .introduction_image img {
+    width:30vw;
+    height:auto;
+
+  }
+
 }
 
 @media (max-width: 679px) {
   .introduction_text {
-    margin-left: 100px;
+    margin-left: 60px;
   }
   .introduction_text h2 {
-    font-size: 18px;
+    font-size: 12px;
   }
   .introduction_text ul {
     padding: 0;
@@ -104,5 +110,14 @@
   .introduction_text a {
     text-decoration: none;
     color: #eee;
+  }
+  .introduction .introduction_content .introduction_image img {
+    width:40vw;
+    height:auto;
+
+  }
+
+  .introduction .introduction_content .introduction_text p{
+    font-size:10px;
   }
 }
